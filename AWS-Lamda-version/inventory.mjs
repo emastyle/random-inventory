@@ -15,7 +15,7 @@ export const handler = async (event) => {
   if (isOdd(qty)) {
     return {
       statusCode: 500,
-      body: JSON.stringify('Lamba function error: this is a random 500 error!'),
+      body: JSON.stringify('This is a random 500 error!'),
     };
   }
 
